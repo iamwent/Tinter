@@ -43,6 +43,6 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     private void setTranslucentStatusBarLollipop() {
-        ((ViewGroup) findViewById(android.R.id.content)).getChildAt(0).setFitsSystemWindows(true);
+        ((ViewGroup) getWindow().findViewById(android.R.id.content)).getChildAt(0).setFitsSystemWindows(true);
     }
 }
