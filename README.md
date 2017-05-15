@@ -174,5 +174,3 @@ private void setTranslucentStatusBarLollipop() {
 ## 结语
 我是要给一个半成品的 APP 做适配，所以先单独做了一个 demo 实现想要的——后来踩到的坑证明我这个决定是多么的正确！特别是坑位三。所以一旦出现莫名其妙的错误，我就对照 demo 的配置一个个地方去排除。
 另外，多试试各种配置的作用，明白它们影响的是什么区域，碰到问题才好修改。
-
-[Demo 在这里](https://github.com/iamwent/Tinter)
